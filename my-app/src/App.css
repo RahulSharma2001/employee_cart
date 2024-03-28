@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.left,
+.right {
+
+    width: 500px;
+    height: 600px;
+    overflow: auto;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid;
+    background-color: beige;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+span {
+    margin: 0 auto;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+}
